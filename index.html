@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Stop</title>
+    <script src="https://kit.fontawesome.com/fa0fab811a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Digite o nome de um campeão do universo de League of Legends</h1>
+    <div class="container">
+        <input type="text" id="nomeDado" placeholder="Nome do campeão">
+        <button onclick="mostrarChamp()">Mostrar Splash Art</button>
+    </div>
+
+    <div id="logo">
+        <img src="https://c.tenor.com/Px7kBr6Kq5kAAAAi/mordekaiser-morde.gif" alt="">
+    </div>
+    
+    <div id="champInfo" style="display: none;">
+        <img src="" alt="" id="champImg">
+        <div id="info">
+            <h2 id="champNome"></h2>
+            <p id="champBio"></p>
+            <a id="linkPag" href="https://www.leagueoflegends.com/pt-br/champions/shen/" target="_blank">Página do campeão <i class="fas fa-link"></i></a>
+        </div>
+    </div>
+
+    <div id="champNaoEncontrado" style="display: none;">
+        <img src="blitz.png" alt="Blitz emote">
+        <p>Campeão não encontrado.</p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

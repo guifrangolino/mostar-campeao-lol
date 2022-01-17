@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: 'Friz';
+    src: url(friz-quadrata.otf) format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background: #061c25;
+    height: 100vh;
+}
+
+
+h1 {
+    font-family:'Friz', sans-serif;
+    color: #c28f2c;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.container {
+    margin: auto;
+    /* border: solid red 1px; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    align-items: center;
+    max-width: 500px;
+    height: 300px;
+}
+
+.container input {
+    width: 100%;
+    height: 20%;
+    font-size: 1.5rem;
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: solid 1px #c28f2c;
+    padding: 10px;
+    outline: none;
+    margin: 10px auto;
+}
+
+.container input::placeholder {
+    color: white;
+}
+
+.container button {
+    width: 100%;
+    height: 20%;
+    font-size: 1.5rem;
+    background: #c28f2c;
+    margin: 10px auto;
+    cursor: pointer;
+    box-shadow: black 9px 11px 1px;
+}
+
+#logo {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#logo img {
+    display: flex;
+    margin: auto;
+    width: 400px;
+}
+
+#champInfo {
+    /* border: solid 1px red; */
+    max-width: 1000px;
+    margin: auto;
+    display: none;
+    background: #282828;
+    padding: 10px;
+    box-shadow: black 15px 16px 1px;
+    margin-bottom: 10px;
+}
+
+#champImg {
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+#info {
+    margin: 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#info h2 {
+    color: #c28f2c;
+    font-size: 2rem;
+}
+
+#info p {
+    color: white;
+    font-size: 1.2rem;
+}
+
+#info a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #c28f2c;
+    width: fit-content;
+}
+
+#champNaoEncontrado {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#champNaoEncontrado img {
+    margin: auto;
+    width: 360px;
+}
+
+#champNaoEncontrado p {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
