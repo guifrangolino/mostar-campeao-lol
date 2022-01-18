@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @font-face {
     font-family: 'Friz';
-    src: url(friz-quadrata.otf) format('opentype');
+    src: url(./assets/friz-quadrata.otf) format('opentype');
 }
 
 * {
@@ -9,6 +9,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
+    transition: .5s;
 }
 
 body {
@@ -33,12 +34,12 @@ h1 {
     padding-top: 50px;
     align-items: center;
     max-width: 500px;
-    height: 300px;
+    max-height: 300px;
 }
 
 .container input {
     width: 100%;
-    height: 20%;
+    height: 50px;
     font-size: 1.5rem;
     color: white;
     background: none;
@@ -55,17 +56,30 @@ h1 {
 
 .container button {
     width: 100%;
-    height: 20%;
+    height: 50px;
     font-size: 1.5rem;
     background: #c28f2c;
     margin: 10px auto;
     cursor: pointer;
     box-shadow: black 9px 11px 1px;
+    transition: 0.1s;
+}
+
+.container button:hover {
+    transform: scale3d(1.05, 1.05, 1);
+    transition: 0.5s;
+}
+
+.container button:active {
+    transform: translate(8px, 8px);
+    box-shadow: none;
+    transition: none;
 }
 
 #logo {
     max-width: 1200px;
     margin: auto;
+    margin-top: 70px;
 }
 
 #logo img {
@@ -76,8 +90,11 @@ h1 {
 
 #champInfo {
     /* border: solid 1px red; */
-    max-width: 1000px;
+    max-width: 1200px;
+    max-height: 350px;
     margin: auto;
+    margin-top: 100px;
+    padding-bottom: 70px;
     display: none;
     background: #282828;
     padding: 10px;
@@ -92,6 +109,10 @@ h1 {
     object-fit: cover;
 }
 
+#champImg:hover {
+    transform: scale3d(1.05, 1.05, 1);
+}
+
 #info {
     margin: 5px 15px;
     display: flex;
@@ -104,9 +125,20 @@ h1 {
     font-size: 2rem;
 }
 
+#info h2:hover {
+    transform: translate(10px, 0px);
+}
+
 #info p {
     color: white;
     font-size: 1.2rem;
+    background-color: #282828;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#info p:hover {
+    transform: scale3d(1.05, 1.05, 1);
 }
 
 #info a {
@@ -114,13 +146,24 @@ h1 {
     font-size: 1.2rem;
     color: #c28f2c;
     width: fit-content;
+    transition: .5s;
+}
+
+#info a:hover {
+    transform: translate(10px, 0px);
 }
 
 #champNaoEncontrado {
     max-width: 500px;
     margin: auto;
+    margin-top: 50px;
+    padding-bottom: 70px;
     display: flex;
     flex-direction: column;
+}
+
+#champNaoEncontrado:hover {
+    transform: scale3d(1.05, 1.05, 1);
 }
 
 #champNaoEncontrado img {

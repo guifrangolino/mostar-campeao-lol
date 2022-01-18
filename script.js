@@ -388,23 +388,579 @@ function mostrarChamp() {
         champBio.innerHTML = `Vomitado para fora de uma aparição podre do Vazio nas profundezas das terras desertas de Icathia, Kog'Maw é uma criatura inquisitiva e pútrida com uma boca cáustica gigantesca. Essa criatura do Vazio em particular precisa morder e babar em qualquer coisa que alcançar para realmente compreendê-la. Apesar de não ser intrinsecamente mau, a ingenuidade cativante de Kog'Maw é perigosa, pois é precedida, em geral, de um frenesi alimentício, não para alimentá-lo, mas para satisfazer sua curiosidade sem fim.`
         linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/kog-maw/')
         ativacaoBotao()
-    } else if (nomeDado == '') {
-        champImg.setAttribute('src', '')
-        champNome.innerHTML = ''
-        champBio.innerHTML = ''
-        linkPag.setAttribute('href', '')
+    } else if (nomeDado == 'LEBLANC') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt4aaf881bb90b509f/5db05fde6e8b0c6d038c5cae/RiotX_ChampionList_leblanc.jpg?quality=90&width=250')
+        champNome.innerHTML = 'LeBlanc, a Farsante'
+        champBio.innerHTML = 'Misteriosa mesmo para os outros membros da Rosa Negra, LeBlanc é somente um dos muitos nomes de uma mulher pálida que tem manipulado pessoas e eventos desde os primeiros dias de Noxus. Usando sua magia para espelhar a si mesma, a feiticeira pode aparecer para qualquer um, em qualquer lugar e mesmo em vários lugares ao mesmo tempo. Sempre planejando às escondidas, as verdadeiras motivações de LeBlanc são tão inescrutáveis quanto sua identidade inconstante.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/leblanc/')
         ativacaoBotao()
-    } 
-    
-    // else if (nomeDado == '') {
-    //     champInfo.style.display = 'none'
-    //     logo.style.display = 'none'
-    //     champNaoEncontrado.style.display = 'flex'
-    // } else {
-    //     champInfo.style.display = 'none'
-    //     logo.style.display = 'none'
-    //     champNaoEncontrado.style.display = 'flex'
-    // }
+    } else if (nomeDado == 'LEE SIN' || nomeDado == 'LEESIN') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt075d278529811445/5db05fde6af83b6d7032c8fe/RiotX_ChampionList_leesin.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Lee Sin, o Monge Cego'
+        champBio.innerHTML = 'Um mestre das artes marciais ancestrais de Ionia, Lee Sin é um lutador de princípios fortes que canaliza a essência do espírito do dragão para enfrentar qualquer desafio. Apesar de ter perdido a visão há muitos anos, o monge guerreiro dedicou sua vida a proteger sua terra natal contra quem ousasse interferir em seu sagrado equilíbrio. Os inimigos que subestimam seu comportamento meditativo são confrontados por seus punhos ardentes e chutes mirabolantes.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/lee-sin/')
+        ativacaoBotao()
+    } else if (nomeDado == 'LEONA') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt8d46ada03ea1da8c/5db05fdf347d1c6baa57be31/RiotX_ChampionList_leona.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Leona, a Alvorada Radiante'
+        champBio.innerHTML = 'Impregnada pelas chamas do sol, Leona é uma guerreira sagrada de Solari que defende o Monte Targon com sua Lâmina Zênite e a Proteção da Aurora. Sua pele brilha com fogo solar enquanto seus olhos queimam com o poder do Aspecto celestial que nela existe. Protegida em uma armadura dourada e carregando o terrível fardo de um conhecimento ancestral, Leona traz luz a alguns e morte a outros.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/leona/')
+        ativacaoBotao()
+    } else if (nomeDado == 'LILIAN') {
+        champImg.setAttribute('src', 'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_0.jpg')
+        champNome.innerHTML = 'Lilian, o Florir Receoso'
+        champBio.innerHTML = 'Extremamente tímida, Lillia, a faunesa feérica, percorre saltitante as florestas de Ionia. Sempre escondida a pouca distância dos humanos — cuja misteriosa natureza lhe causa fascínio e, ao mesmo tempo, receio — Lillia espera descobrir por que os sonhos deles não chegam mais à Árvore dos Sonhos. Agora, ela percorre Ionia com um cajado mágico nas mãos em busca dos sonhos não realizados das pessoas. Somente assim, a própria Lillia poderá florescer e ajudar os humanos a resolverem seus medos e encontrarem seu brilho interior. Iiip!'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/lillia/')
+        ativacaoBotao()
+    } else if (nomeDado == 'LISSANDRA') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt08f869e897566c5b/5db05fdf7d28b76cfe439801/RiotX_ChampionList_lissandra.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Lissandra, a Bruxa Gélida'
+        champBio.innerHTML = `A magia de Lissandra transforma o poder bruto do gelo em algo sombrio e terrível. Com a força do seu gelo sombrio, ela faz mais do que congelar — ela perfura e destrói todos que se opões a ela. Entre os aterrorizados habitantes do norte, ela é conhecida como a ''Bruxa Gélida''. Mas a verdade é muito mais sinistra: Lissandra é uma corruptora da natureza que conspira para instalar uma era do gelo no mundo.`
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/lissandra/')
+        ativacaoBotao()
+    } else if (nomeDado == 'LUCIAN') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt3db0d62352b0b4f1/5db05fdf6e8b0c6d038c5cb4/RiotX_ChampionList_lucian.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Lucian, o Purificador'
+        champBio.innerHTML = 'Lucian, um Sentinela da Luz, é um caçador de espíritos imortais que usa suas pistolas relicárias para persegui-los implacavelmente e, por fim, aniquilá-los. Após o assassinato de sua esposa pelas mãos do espectro Thresh, Lucian embarcou em uma jornada de vingança. Mas mesmo com a volta de sua amada ao reino dos vivos, sua ira permanece inalterada. Impiedoso e obstinado, Lucian não hesitará em proteger os vivos contra os horrores da Névoa Negra.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/lucian/')
+        ativacaoBotao()
+    } else if (nomeDado == 'LULU') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt424f04814efb3aca/5db05fdfe9d7526ab429e538/RiotX_ChampionList_lulu.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Lulu, a Fada Feiticeira'
+        champBio.innerHTML = 'A maga yordle Lulu é conhecida por conjurar ilusões de sonhos e criaturas fantasiosas enquanto vaga por Runeterra com seu silfo companheiro, Pix. Lulu transforma a realidade por capricho, distorcendo o que ela vê como restrições desse banal reino físico. Apesar de alguns considerarem sua magia no mínimo anormal, e no máximo perigosa, ela acredita que todos merecem um toque de encanto.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/lulu/')
+        ativacaoBotao()
+    } else if (nomeDado == 'LUX') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltb94b4161d8022c45/5db05fdfe9d7526ab429e53c/RiotX_ChampionList_lux.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Lux, a Dama da Luz'
+        champBio.innerHTML = 'Luxanna Stemmaguarda nasceu em Demacia, um reino insular onde habilidades mágicas são vistas com medo e desconfiança. Capaz de dobrar a luz à sua vontade, ela cresceu temendo ser descoberta e exilada, e foi forçada a manter seus poderes em segredo a fim de preservar o status de nobreza de sua família. Apesar de tudo, o otimismo e resiliência de Lux a levaram a aceitar seus talentos únicos e agora ela os utiliza em segredo a serviço de sua terra natal.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/lux/')
+        ativacaoBotao()
+    } else if (nomeDado == 'MALPHITE') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt4d3b4a7e4c44ced7/5db05fdeadc8656c7d24e7e2/RiotX_ChampionList_malaphite.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Malphite, o Fragmento do Monolito'
+        champBio.innerHTML = 'Uma criatura gigantesca de pedra viva, Malphite pena para impor ordem abençoada em um mundo caótico. Nascido como um fragmento servil de um obelisco de outro mundo conhecido como Monolito, ele usou sua tremenda força elemental para manter e proteger seu progenitor, mas, no fim, falhou. O único sobrevivente da destruição que se seguiu, Malphite agora suporta o povo macio de Runeterra com seus temperamentos inconstantes enquanto luta para encontrar um novo papel digno do último de sua espécie.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/malphite/')
+        ativacaoBotao()
+    } else if (nomeDado == 'MALZAHAR') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd58a3a2bf5035834/5db05fde0b39e86c2f83dc1f/RiotX_ChampionList_malzahar.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Malzahar, o Profeta do Vazio'
+        champBio.innerHTML = 'Um vidente fanático dedicado à unificação de toda a vida, Malzahar realmente acredita que o Vazio que recém surgiu é o caminho para a salvação de Runeterra. Na desolação do deserto de Shurima, ele seguiu as vozes que sussurravam em sua mente por todo o caminho até a antiga Icathia. Entre as ruínas daquela terra, ele olhou no coração sombrio do próprio Vazio e recebeu novos poderes e propósito. Agora Malzahar vê a si mesmo como um pastor encarregado de trazer os outros para o rebanho… ou de libertar as criaturas do Vazio que vivem nas profundezas.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/malzahar/')
+        ativacaoBotao()
+    } else if (nomeDado == 'MAOKAI') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt757d0e8855d51e03/5db05fe72140ec675d68f4a1/RiotX_ChampionList_maokai.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Maokai, o Ente Sinistro'
+        champBio.innerHTML = 'Maokai é um grande ente enfurecido que luta contra os terrores sobrenaturais da Ilhas das Sombras. Ele se transformou em uma força vingativa depois que um cataclisma mágico destruiu seu lar, sobrevivendo apenas através das Águas da Vida que estão infusas em seu cerne. Outrora um espírito pacífico da natureza, Maokai agora batalha furiosamente para banir os flagelos da não-vida das Ilhas das Sombras e restaurar a antiga beleza do seu lar.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/maokai/')
+        ativacaoBotao()
+    } else if (nomeDado == 'MASTER YI') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt46e861d7e6c0ab0c/5db05fe8df78486c826dcd12/RiotX_ChampionList_masteryi.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Master Yi, o Espadachim Wuju'
+        champBio.innerHTML = 'Master Yi treinou seu corpo e afiou sua mente para que pensamento e ação se tornassem quase um só. Embora ele prefira recorrer à violência como último recurso, a leveza e a velocidade de sua espada garantem uma resolução sempre veloz. Como um dos últimos praticantes da arte ioniana do Wuju, Yi dedicou sua vida a preservar o legado de seu povo, avaliando potenciais discípulos com as Sete Lentes da Perspicácia para identificar qual deles era o mais digno.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/master-yi/')
+        ativacaoBotao()
+    } else if (nomeDado == 'MISS FORTUNE' || nomeDado == 'MF') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf36fa7fd7ecb59fb/5db05fe89481396d6bdd01b8/RiotX_ChampionList_missfortune.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Miss Fortune, a Caçadora de Recompensas'
+        champBio.innerHTML = 'Uma capitã de Águas de Sentina famosa por sua aparência e impiedade, Sarah Fortune chama atenção entre os criminosos calejados da cidade portuária. Ainda criança, ela viu o Rei dos Ladrões, Gangplank, assassinar sua família, um crime do qual ela se vingou com violência anos depois, explodindo seu navio com ele ainda a bordo. Aqueles que a subestimarem enfrentarão uma oponente sedutora e imprevisível... E, possivelmente, uma bala ou duas nas entranhas.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/miss-fortune/')
+        ativacaoBotao()
+    } else if (nomeDado == 'MORDEKAISER') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt2392a60ff2a2d726/5db05fe8242f426df132f96d/RiotX_ChampionList_mordekaiser.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Mordekaiser, o Revenã de Ferro'
+        champBio.innerHTML = 'Morto e renascido duas vezes, Mordekaiser é um cruel comandante de uma época perdida. Ele usa a arte da necromancia para aprisionar almas e torná-las submissas pela eternidade. Hoje em dia, poucos se lembram das primeiras conquistas ou conhecem a real dimensão do poder de Mordekaiser. Porém, algumas almas ancestrais ainda se lembram, e temem que um dia ele volte para reivindicar seu domínio... tanto sobre os mortos quanto sobre os vivos.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/mordekaiser/')
+        ativacaoBotao()
+    } else if (nomeDado == 'MORGANA') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc81eece55f126d2d/5db05fe86af83b6d7032c904/RiotX_ChampionList_morgana.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Morgana, a Caída'
+        champBio.innerHTML = 'Dividida entre sua natureza mortal e celestial, Morgana prendeu as asas para preservar sua humanidade e inflige sua dor e amargura nos desonestos e corruptos. Ela rejeita as leis e tradições que considera injustas e luta pela verdade nas sombras de Demacia com escudos e correntes de fogo sombrio, ainda que alguns tentem reprimi-la. Acima de tudo, Morgana acredita que até os banidos e exilados podem, um dia, se erguer.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/morgana/')
+        ativacaoBotao()
+    } else if (nomeDado == 'NAMI') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt13bec39f49dc35ee/5db05fe956458c6b3fc1751f/RiotX_ChampionList_nami.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Nami, a Conjuradora das Marés'
+        champBio.innerHTML = 'Uma jovem e obstinada vastaya dos mares, Nami é uma das primeiras integrantes da tribo Marai a sair das ondas e se aventurar na terra seca, onde seus antigos acordos com os targonianos foram quebrados. Com nenhuma outra opção, ela decidiu que seria ela mesma quem completaria o ritual sagrado que garantiria a segurança de seu povo. Dentro do caos dessa nova era, Nami enfrenta um futuro incerto com coragem e determinação, usando seu Conjurador das Marés para invocar a própria força dos oceanos.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/nami/')
+        ativacaoBotao()
+    } else if (nomeDado == 'NASUS') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt20a4b154b1756b56/5db05fe7a6470d6ab91ce5a0/RiotX_ChampionList_nasus.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Nasus, o Curador das Areias'
+        champBio.innerHTML = 'Nasus é um majestoso Ascendente com cabeça de chacal da antiga Shurima; uma figura heroica considerada semideus pelo povo do deserto. Ferozmente inteligente, ele foi um guardião do conhecimento e estrategista sem igual cuja sabedoria guiou o antigo império de Shurima em direção à grandeza por muitos séculos. Após a queda do império, ele colocou a si mesmo em exílio, tornando-se mais que uma lenda. Agora que a antiga cidade de Shurima ressurgiu, ele retornou, determinado a assegurar que ela nunca mais caia.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/nasus/')
+        ativacaoBotao()
+    } else if (nomeDado == 'NAUTILUS') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf945a57aa16cea57/5db05fe7347d1c6baa57be37/RiotX_ChampionList_nautilus.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Nautilus, o Titã das Profundezas'
+        champBio.innerHTML = 'O golias armadurado conhecido como Nautilus, uma lenda solitária, tão velha quantos as primeiras docas que afundaram em Águas de Sentina, vaga pelas águas escuras da costa das Ilhas da Chama Azul. Levado por uma traição esquecida, ele ataca sem aviso, balançando sua enorme âncora para salvar os náufragos e arrastar os gananciosos para sua perdição. Dizem que ele surge para aqueles que se esquecem de pagar o “dízimo de Águas de Sentina”, puxando-os para baixo das ondas junto com ele: um lembrete envolto em ferro de que ninguém pode escapar das profundezas.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/nautilus/')
+        ativacaoBotao()
+    } else if (nomeDado == 'NEEKO') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blta62eaac6ad26a4f5/5db05fe7adc8656c7d24e7ea/RiotX_ChampionList_neeko.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Neeko, a Camaleoa Curiosa'
+        champBio.innerHTML = 'Nativa de uma tribo vastaya há muito esquecida, Neeko consegue se misturar em qualquer multidão, assumindo a aparência dos outros e até mesmo absorvendo parte de seu estado emocional para identificar de imediato quem é amigo ou inimigo. Nunca se sabe onde Neeko pode estar, nem mesmo quem pode ser, mas aqueles com a intenção de machucá-la logo verão suas verdadeiras cores e toda a força e magia de seu espírito primitivo agindo contra eles.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/neeko/')
+        ativacaoBotao()
+    } else if (nomeDado == 'NIDALEE') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt5a2da06d413f7c15/5db05ff1df78486c826dcd18/RiotX_ChampionList_nidalee.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Nidalee, a Caçadora Bestial'
+        champBio.innerHTML = 'Criada na mais profunda das selvas, Nidalee é uma rastreadora especialista que pode se transformar em um puma à sua vontade. Nem animal nem mulher, ela defende com ferocidade seu território de todo e qualquer invasor, com armadilhas cuidadosamente colocadas e lanças arremessadas. Ela fere sua presa antes de pular nela em sua forma felina, e dizem os sortudos que sobrevivem que ela é uma mulher selvagem com instintos aguçados e garras ainda mais afiadas...'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/nidalee/')
+        ativacaoBotao()
+    } else if (nomeDado == 'NOCTURNE') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltfc73e3c7dda28d31/5db05ff2adc8656c7d24e7f0/RiotX_ChampionList_nocturne.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Nocturne, o Eterno Pesadelo'
+        champBio.innerHTML = 'Uma fusão demoníaca provinda dos pesadelos que assombram todas as mentes sencientes, a coisa conhecida como Nocturne se tornou uma força primordial de puro terror. De aspecto caótico e líquido, ele é uma sombra sem rosto com olhos frios e armada com lâminas enfurecidas. Depois de se libertar do mundo dos espíritos, Nocturne desceu para o mundo dos vivos para se alimentar de um terror que só pode ser cultivado na verdadeira escuridão.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/nocturne/')
+        ativacaoBotao()
+    } else if (nomeDado == 'NUNU E WILLUMP' || nomeDado == 'NUNU') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf613746635c6d3c8/5db05ff256458c6b3fc17527/RiotX_ChampionList_nunu.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Nunu e Willump, o Garoto e seu Yeti'
+        champBio.innerHTML = 'Era uma vez um garoto que queria provar a todos que poderia ser um herói indo matar um terrível monstro... mas que no fim descobriu que esse monstro era um solitário yeti mágico que só queria um amigo. Unidos por um antigo poder e compartilhando um amor por bolas de neve, Nunu e Willump agora vagavam ferozmente através de toda Freljord, soprando vida em aventuras imaginárias. Eles tinham esperança de que em algum lugar encontrariam a mãe de Nunu. Se pudessem salvá-la, talvez eles realmente fossem heróis afinal...'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/nunu/')
+        ativacaoBotao()
+    } else if (nomeDado == 'OLAF') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte922bda45062964b/5db05ff0a6470d6ab91ce5a6/RiotX_ChampionList_olaf.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Olaf, o Berserker'
+        champBio.innerHTML = 'Uma força desenfreada de destruição, Olaf e seus machados não querem nada além de morrer em um combate glorioso. Vindo da brutal península de Freljord, Lokfar, ele recebeu uma profecia que dizia que ele teria uma morte pacífica: o destino de um covarde e um grande insulto entre seu povo. Procurando pela morte e movido por sua fúria, ele destruiu tudo em seu caminho, massacrando dezenas de guerreiros e bestas lendárias em busca de um oponente que pudesse pará-lo. Agora, um executor brutal da Garra do Inverno, ele busca seu fim nas grandes guerras que estão por vir.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/olaf/')
+        ativacaoBotao()
+    } else if (nomeDado == 'ORIANNA') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt3318fc0e8103706d/5db05ff02140ec675d68f4a7/RiotX_ChampionList_orianna.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Orianna, a Donzela Mecânica'
+        champBio.innerHTML = 'Orianna já foi uma menina curiosa de carne e osso, mas agora é uma maravilha tecnológica composta inteiramente de engrenagens. Ela ficou terrivelmente doente depois de um acidente em um dos distritos inferiores de Zaun e seu corpo enfraquecido teve que ser substituído por mecanismos requintados, peça por peça. Acompanhada por uma esfera de cobre extraordinária que ela construiu para companhia e proteção, Orianna agora é livre para explorar as maravilhas de Piltover e além.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/orianna/')
+        ativacaoBotao()
+    } else if (nomeDado == 'ORNN') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt639bacdfe8b1fd95/5db05ff1bd24496c390ae4f0/RiotX_ChampionList_ornn.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Ornn, o Fogo sob a Montanha'
+        champBio.innerHTML = 'Ornn é o espírito Freljordano da forja e da artesania. Ele trabalha na solidão de uma enorme fornalha, construída a marteladas por entre as cavernas de lava do vulcão Pedra-Lar. Lá, ele aquece caldeirões de pedra fundida para purificar metais e forjar itens de qualidade insuperável. Quando outras divindades — principalmente Volibear — descem à Terra para intervir nos assuntos dos mortais, Ornn aparece para colocar esses seres impetuosos em seu devido lugar, seja com seu fiel martelo ou com o poder ardente das próprias montanhas.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/ornn/')
+        ativacaoBotao()
+    } else if (nomeDado == 'PANTHEON') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt3f84c538bd36ef02/5db05ff17d28b76cfe43980d/RiotX_ChampionList_pantheon.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Pantheon, a Lança Indestrutível'
+        champBio.innerHTML = 'Antes um relutante portador do Aspecto da Guerra, Atreus conseguiu sobreviver quando o poder celestial dentro dele foi morto, recusando-se a sucumbir a um golpe que arrancou estrelas do céu. Com o tempo, ele aprendeu a usar o poder de sua própria mortalidade e da persistente resiliência que veio com ela. Hoje, Atreus se opõe a tudo o que é divino com o renascimento de um novo Pantheon, e sua inabalável determinação é o que alimenta as armas do antigo Aspecto no campo de batalha.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/pantheon/')
+        ativacaoBotao()
+    } else if (nomeDado == 'POPPY') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt0df0f7bcaf851737/5db05ff1242f426df132f973/RiotX_ChampionList_poppy.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Poppy, a Guardiã do Martelo'
+        champBio.innerHTML = 'Runeterra não está em falta de campeões valentes, mas poucos são tão tenazes quanto Poppy. Carregando o lendário martelo de Orlon, uma arma que tem o dobro de seu tamanho, essa yordle determinada tem passado muitos anos procurando em segredo pelo lendário “Herói de Demacia”, dono legítimo do martelo. Até lá, ela cumpre seu dever entrando em batalhas e forçando os inimigos do reino a recuarem com cada giro de seu martelo.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/poppy/')
+        ativacaoBotao()
+    } else if (nomeDado == 'PYKE') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt98269cb73e9fce70/5db05ff1347d1c6baa57be3d/RiotX_ChampionList_pyke.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Pyke, o Estripador das Águas Sangrentas'
+        champBio.innerHTML = 'Um arpoador renomado vindo das Docas da Matança nas Águas de Sentina, Pyke deveria ter encontrado sua morte na barriga de um gigante Peixe-Jaula... mas, ainda assim, ele retornou. Agora, vagando pelos becos úmidos de sua cidade natal, ele usa seus novos dons sobrenaturais para trazer um rápido e grotesco fim para aqueles que fazem fortuna explorando os outros. Hoje, os mesmos habitantes da cidade que se orgulham de caçar monstros estão sendo caçados por um.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/pyke/')
+        ativacaoBotao()
+    } else if (nomeDado == 'QIYANA') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blta6148d8dca105d6b/5db05ff1e9effa6ba5295fa7/RiotX_ChampionList_qiyana.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Qiyana, a Imperatriz dos Elementos'
+        champBio.innerHTML = 'Na cidade-selva de Ixaocan, Qiyana planeja seu próprio e implacável caminho até o trono de Yun Tal. Última na fila para suceder seus pais, ela enfrenta qualquer um no seu caminho com uma confiança impetuosa e domínio sem precedentes sobre a magia elemental. Com a própria terra obedecendo a todos os seus comandos, Qiyana se vê como a maior elementalista na história de Ixaocan. Por esse motivo, julga-se merecedora não apenas de uma cidade, mas de todo um império.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/qiyana/')
+        ativacaoBotao()
+    } else if (nomeDado == 'QUINN') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt5cc3e3a189961d90/5db05ffbadc8656c7d24e7fc/RiotX_ChampionList_quinn.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Quinn, as Asas de Demacia'
+        champBio.innerHTML = 'Quinn é uma cavaleira patrulheira de elite de Demacia que cumpre missões perigosas no coração do território inimigo. Ela e sua águia lendária, Valor, possuem um vínculo inquebrável e seus inimigos muitas vezes são mortos antes de notarem que não estão lutando contra um, mas dois dos maiores heróis do reino. Ágil e acrobática quando necessário, Quinn mira com sua balestra, enquanto Valor, do alto, marca seus alvos esquivos, fazendo deles uma dupla letal no campo de batalha.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/quinn/')
+        ativacaoBotao()
+    } else if (nomeDado == 'RAKAN') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltbe844b30961ccb7c/5db05ffb2140ec675d68f4ad/RiotX_ChampionList_rakan.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Rakan, o Charmoso'
+        champBio.innerHTML = 'Inconsistente e charmoso, Rakan é um conhecido encrenqueiro vastaya e o melhor dançarino de batalha da história da tribo Lhotlan. Para os humanos das montanhas de Ionia, seu nome sempre foi sinônimo de festivais mirabolantes, festas agitadas e música subversiva. Poucos suspeitariam que este artista itinerante e energético é parceiro da rebelde Xayah e totalmente dedicado à causa dela.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/rakan/')
+        ativacaoBotao()
+    } else if (nomeDado == 'RAMMUS') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt50cccb68a58349f5/5db05ffbdc674266df3d5d48/RiotX_ChampionList_rammus.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Rammus, o Tatu Blindado'
+        champBio.innerHTML = 'Idolatrado por muitos, dispensado por alguns e misterioso para todos, Rammus é um ser curioso e enigmático. Protegido por um casco espetado, ele inspira teorias cada vez mais divergentes sobre sua origem por onde quer que passe — de semideus, a oráculo sagrado, a uma fera qualquer que foi transformada por magia. Qualquer que seja a verdade, Rammus mantém seus pareceres e não interrompe seu caminho por ninguém enquanto vaga sem rumo pelo deserto shurimane.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/rammus/')
+        ativacaoBotao()
+    } else if (nomeDado == `REK'SAI` || nomeDado == 'REK SAI' || nomeDado == 'REKSAI') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt4affff3ef114e99b/5db05ffb347d1c6baa57be43/RiotX_ChampionList_reksai.jpg?quality=90&width=250')
+        champNome.innerHTML = `Rek'Sai, a Escavadora do Vazio`
+        champBio.innerHTML = `A predadora perfeita, Rek'Sai é uma criatura do Vazio sem piedade que anda por túneis no subsolo para emboscar e devorar vítimas desavisadas. Sua fome insaciável já destruiu regiões inteiras do outrora gigantesco império de Shurima. Mercadores, vendedores, até mesmo caravanas blindadas, preferem fazer longos desvios para evitarem a ela e seus filhotes no seu território de caça. Todos sabem que, se Rek'Sai for avistada no horizonte, a morte certamente virá do subsolo.`
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/rek-sai/')
+        ativacaoBotao()
+    } else if (nomeDado == 'RELL') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt0091d81986fe44c7/5fd43df38593bc52457eecc4/RiotX_ChampionList_Rell_v2.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Rell, a Dama de Ferro'
+        champBio.innerHTML = 'Produto de um experimento brutal nas mãos da Rosa Negra, Rell é uma arma humana rebelde que está determinada a destruir Noxus. Sua infância foi repleta de sofrimento e horror; a jovem teve que suportar procedimentos indescritíveis para aperfeiçoar e fortalecer seu controle mágico do metal – até que, um dia, empreendeu uma fuga violenta, matando muitos de seus captores no processo. Agora, Rell é tida como criminosa e ataca qualquer soldado noxiano que apareça diante dela. Ao mesmo tempo, procura sobreviventes de sua antiga "academia", defendendo os fracos enquanto despacha violentamente seus antigos supervisores para a morte.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/rell/')
+        ativacaoBotao()
+    } else if (nomeDado == 'RENEKTON') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt6b5bb4d917759184/5db05ffb242f426df132f979/RiotX_ChampionList_renekton.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Renekton, o Carniceiro das Areias'
+        champBio.innerHTML = 'Renekton é um aterrorizante e furioso ser Ascendente dos desertos escaldantes de Shurima. Ele já foi o guerreiro mais estimado de todo o seu império, levando os exércitos da nação a inúmeras vitórias. No entanto, após a queda do império, Renekton foi enterrado nas areias e, lentamente, enquanto o mundo girava e mudava, ele sucumbia à loucura. Novamente liberto, ele é consumido pelo desejo de encontrar e matar seu irmão Nasus, a quem culpa pelos séculos que passou na escuridão graças à própria loucura.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/renekton/')
+        ativacaoBotao()
+    } else if (nomeDado == 'RENGAR') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt282bc8e033db4123/5db05ff9adc8656c7d24e7f6/RiotX_ChampionList_rengar.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Rengar, o Acossador da Alcateia'
+        champBio.innerHTML = `Rengar é um feroz caçador de troféus vastaya que gosta da emoção proporcionada pela caça e pelo abate de criaturas perigosas. Ele vasculha o mundo em busca das feras mais perigosas que pode encontrar, procurando principalmente por Kha'Zix, a criatura do vazio que arrancou seu olho. Rengar não persegue suas presas por fome nem por glória, mas pela simples beleza da caçada.`
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/rengar/')
+        ativacaoBotao()
+    } else if (nomeDado == 'RIVEN') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt3925b81c7462e26e/5db05ffadc674266df3d5d42/RiotX_ChampionList_riven.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Riven, a Exilada'
+        champBio.innerHTML = 'Outrora mestra das espadas nos esquadrões de Noxus, agora Riven é uma expatriada em uma terra que um dia já tentou conquistar. Depois de alcançar os altos escalões do exército usando a força de sua convicção e sua brutal eficiência, ela foi recompensada com uma lâmina rúnica lendária e sua própria milícia. No entanto, no fronte ioniano, a fé de Riven em sua terra natal foi testada e, no fim, quebrada. Tendo cortado todos os laços com o império, agora ela busca seu lugar em um mundo devastado, mesmo diante de rumores de que a própria Noxus passou por uma transformação...'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/riven/')
+        ativacaoBotao()
+    } else if (nomeDado == 'RUMBLE') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd7c76610fa29d8d6/5db05ffa7d28b76cfe439813/RiotX_ChampionList_rumble.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Rumble, a Ameaça Mecânica'
+        champBio.innerHTML = 'Rumble é um jovem inventor irritadiço. Usando nada além de suas próprias mãos e uma pilha de sucata, o yordle briguento construiu um mecha colossal montado com um arsenal de arpões eletrificados e foguetes incendiários. Apesar de outros rirem de suas criações de ferro-velho, Rumble não se importa. Afinal, é ele que tem um cospe-fogo.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/rumble/')
+        ativacaoBotao()
+    } else if (nomeDado == 'RYZE') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt8af977ce4fa7804b/5db05ffa2dc72966da746714/RiotX_ChampionList_ryze.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Ryze, o Mago Rúnico'
+        champBio.innerHTML = 'Considerado pela grande maioria como o mago mais habilidoso de Runeterra, Ryze é um arquimago ancião e amargo que carrega um enorme peso. Dotado de um enorme poder arcano e de uma notável estrutura física, ele busca incansavelmente pelas Runas Globais, que são fragmentos de magia pura que um dia criaram o mundo a partir do nada. Ele deve recuperar esses artefatos antes que eles caiam em mãos erradas, pois Ryze conhece bem os horrores que eles podem infligir em Runeterra.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/ryze/')
+        ativacaoBotao()
+    } else if (nomeDado == 'SAMIRA') {
+        champImg.setAttribute('src', 'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Samira_0.jpg')
+        champNome.innerHTML = 'Samira, a Rosa do Deserto'
+        champBio.innerHTML = 'Samira encara a morte nos olhos com confiança inabalável, procurando diversão e adrenalina aonde quer que vá. Depois que seu lar em Shurima foi destruído quando ainda era criança, ela encontrou sua verdadeira vocação em Noxus, onde conquistou fama como a guerreira valente e estilosa que aceitava missões arriscadas do mais alto calibre. Empunhando pistolas de pólvora negra e uma espada personalizada, Samira prospera em circunstâncias de vida ou morte, eliminando – com estilo e rapidez – qualquer um que cruze seu caminho.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/samira/')
+        ativacaoBotao()
+    } else if (nomeDado == 'SEJUANI') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte4d521b893aa5a3e/5db05ffae9d7526ab429e544/RiotX_ChampionList_sejuani.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Sejuani, a Fúria do Norte'
+        champBio.innerHTML = 'Sejuani é a mãe de guerra Glacinata brutal e implacável da Garra do Inverno, uma das tribos mais temidas de Freljord. A sobrevivência de seu povo é uma batalha constante e desesperada contra os elementos, forçando-os a pilhar noxianos, demacianos e avarosianos para sobreviver aos invernos severos. A própria Sejuani lidera os ataques mais perigosos, montada no seu javali drüvask, Bristle, usando seu mangual de Gelo Verdadeiro para congelar e despedaçar seus inimigos.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/sejuani/')
+        ativacaoBotao()
+    } else if (nomeDado == 'SENNA') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt24f4735ebde3c22b/5db08d642dc72966da74686e/RiotX_ChampionList_senna.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Senna, a Redentora'
+        champBio.innerHTML = 'Amaldiçoada desde a infância a ser perseguida pelo fenômeno sobrenatural da Névoa Negra, Senna se juntou à ordem dos Sentinelas da Luz e lutou bravamente contra seu destino. Ela acabou sendo morta e teve sua alma aprisionada em uma lanterna pelo cruel espectro Thresh. No entanto, por se recusar a perder as esperanças, ela aproveitou seu tempo dentro da lanterna para aprender a usar a Névoa, ressurgindo com uma nova vida e sabendo que jamais voltaria a ser a mesma. Agora, armada com as forças da luz e da escuridão, Senna busca exterminar a Névoa Negra, atraindo o fenômeno para si mesma a cada disparo de sua arma relicária e salvando as almas perdidas que ali residem.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/senna/')
+        ativacaoBotao()
+    } else if (nomeDado == 'SERAPHINE') {
+        champImg.setAttribute('src', 'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Seraphine_0.jpg')
+        champNome.innerHTML = 'Seraphine, a Cantora Sonhadora'
+        champBio.innerHTML = 'Nascida em Piltover e filha de zaunitas, Seraphine é capaz de ouvir a alma das pessoas. O mundo canta para ela, e ela canta em resposta. Esses sons a perturbavam quando era mais jovem, mas hoje ela os usa como inspiração, transformando o caos em uma sinfonia. A cantora se apresenta nas cidades irmãs para lembrar a seus cidadãos que eles não estão sozinhos, que são mais fortes juntos e que, aos olhos dela, o potencial deles é ilimitado.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/seraphine/')
+        ativacaoBotao()
+    } else if (nomeDado == 'SETT') {
+        champImg.setAttribute('src', 'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_0.jpg')
+        champNome.innerHTML = 'Sett, o Chefe'
+        champBio.innerHTML = 'Líder de parte do próspero submundo do crime em Ionia, Sett deve todo o seu sucesso à guerra contra Noxus. Mesmo estreando como um simples desafiante nas arenas de combate em Navori, ele logo conquistou notoriedade com sua força bruta e capacidade de suportar dor contínua e extrema. Agora, após superar todos os combatentes locais, Sett chegou até o topo e reina sobre as arenas onde um dia lutara.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/sett/')
+        ativacaoBotao()
+    } else if (nomeDado == 'SHACO') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc8b1d1ba926d01cc/5db060036e8b0c6d038c5cba/RiotX_ChampionList_shaco.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Shaco, o Bufão Demoníaco'
+        champBio.innerHTML = 'Criado anos atrás como um brinquedo para um príncipe solitário, Shaco, a marionete encantada, agora se deleita com assassinatos e desordem. Corrompido por magia das trevas e pela perda de seu dono querido, o boneco que já fora gentil agora encontra prazer somente na miséria das próprias almas que ele atormenta. Ele usa brinquedos e truques simples para conseguir efeitos mortais, achando os resultados de seus “jogos” sangrentos hilários. E para aqueles que escutam uma risada sombria na calada da noite, o Bufão Demoníaco pode tê-los marcado como seu próximo brinquedo.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/shaco/')
+        ativacaoBotao()
+    } else if (nomeDado == 'SHEN') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd142d174831b78e9/5db06004242f426df132f97f/RiotX_ChampionList_shen.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Shen, o Olho do Crepúsculo'
+        champBio.innerHTML = 'Para os guerreiros ionianos sigilosos conhecidos como Kinkou, Shen, o Olho do Crepúsculo, é um líder. Ele busca permanecer livre da confusão das emoções, preconceito ou ego, caminhando pelo caminho nunca visto do julgamento imparcial entre o reino dos espíritos e o mundo físico. Incumbido de impor harmonia entre os dois, Shen empunha lâminas de aço e energia arcana contra qualquer um que ameaçar o equilíbrio.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/shen/')
+        ativacaoBotao()
+    } else if (nomeDado == 'SHYVANA') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltdb320ec49e0e02a7/5db0600456458c6b3fc1752d/RiotX_ChampionList_shyvana.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Shyvana, a Meio-Dragão'
+        champBio.innerHTML = 'Shyvana é uma criatura com a mágica de um fragmento de runa queimando em seu coração. Apesar de normalmente parecer humanoide, ela pode mudar para sua forma verdadeira de um temível dragão, incinerando seus inimigos com seu sopro de chamas. Depois de salvar a vida do príncipe herdeiro, Jarvan IV, Shyvana agora serve, mesmo que desconfortavelmente, na sua guarda real, lutando para encontrar aceitação entre o povo receoso de Demacia.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/shyvana/')
+        ativacaoBotao()
+    } else if (nomeDado == 'SINGED') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt766d98c27adfde28/5db06004347d1c6baa57be4f/RiotX_ChampionList_singed.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Singed, o Químico Louco'
+        champBio.innerHTML = 'Singed é um alquimista zaunita de intelecto inigualável, que devotou sua vida a ultrapassar os limites do conhecimento; e nenhum preço, nem sua própria sanidade, é alto demais. Existe cura para sua loucura? Suas misturas raramente falham, mas, para muitos, Singed perdeu qualquer noção da humanidade, deixando uma trilha tóxica de miséria e terror no seu caminho.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/singed/')
+        ativacaoBotao()
+    } else if (nomeDado == 'SION') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt7f28f1d689e4ad3d/5db06004adc8656c7d24e802/RiotX_ChampionList_sion.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Sion, o Colosso Morto-Vivo'
+        champBio.innerHTML = 'Um herói de guerra de uma era passada, Sion era reverenciado em Noxus por ter estrangulado a vida de um rei demaciano com suas próprias mãos. Mas o esquecimento lhe foi negado quando foi ressuscitado para servir seu império, mesmo na sua morte. Seu massacre indiscriminado levou qualquer um que estivesse em seu caminho, sem importar sua lealdade, provando que ele não possui mais nada de sua antiga humanidade. Mesmo assim, com armadura bruta pregada em carne apodrecida, Sion continua a investir na batalha em total abandono, lutando para se lembrar do seu verdadeiro ser entre cada ataque de seu machado.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/sion/')
+        ativacaoBotao()
+    } else if (nomeDado == 'SIVIR') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltbe8ea8bfd98ec1f3/5db06002a6470d6ab91ce5ac/RiotX_ChampionList_sivir.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Sivir, a Mestra da Batalha'
+        champBio.innerHTML = 'Sivir é uma renomada caçadora de recompensas e capitã mercenária que manipula o comércio nos desertos de Shurima. Armada com sua lendária lâmina em cruz adornada, ela lutou e venceu incontáveis batalhas por aqueles que podem pagar seu preço exorbitante. Conhecida por sua resolução audaz e ambição sem fim, ela se orgulha de recuperar tesouros secretos das perigosas tumbas de Shurima — por um bom preço. Com forças anciãs remexendo os ossos da própria Shurima, Sivir encontra-se dividida entre destinos conflitantes.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/sivir/')
+        ativacaoBotao()
+    } else if (nomeDado == 'SKARNER') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt842a8149ba8b7a3d/5db06003bd24496c390ae4f6/RiotX_ChampionList_skarner.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Skarner, a Vânguarda de Cristal'
+        champBio.innerHTML = 'Skarner é um imenso escorpião cristalino de um vale escondido de Shurima. Parte da antiga raça dos Brackern, Skarner e seus semelhantes são conhecidos por seu grande conhecimento e profunda conexão com a terra, pois suas almas são infundidas com poderosos cristais vivos que mantêm as memórias de seus ancestrais. Em uma era muito antiga, os Brackern entraram em hibernação para evitar uma destruição mágica imprevista, mas eventos ameaçadores recentes despertaram Skarner. Sendo o único Brackern acordado, ele luta para proteger seus semelhantes daqueles que buscam lhes fazer mal.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/skarner/')
+        ativacaoBotao()
+    } else if (nomeDado == 'SONA') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt4810827f74fc21b9/5db06003347d1c6baa57be49/RiotX_ChampionList_sona.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Sona, a Mestra das Cordas'
+        champBio.innerHTML = 'Sona é um dos maiores prodígios em etwahl de cordas em Demacia, falando somente através de seus acordes graciosos e de suas árias vibrantes. Seu comportamento refinado cativou os nobres, apesar de muitos suspeitarem que suas melodias fascinantes realmente emanem magia, um tabu em Demacia. Silenciosa com desconhecidos, mas compreendida de alguma forma por companheiros próximos, Sona dedilha suas harmonias não somente para aliviar a dor de seus aliados, mas também para derrubar inimigos desavisados.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/sona/')
+        ativacaoBotao()
+    } else if (nomeDado == 'SORAKA') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt2141839fdc483592/5db06003e9effa6ba5295fad/RiotX_ChampionList_soraka.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Soraka, a Filha das Estrelas'
+        champBio.innerHTML = 'Uma andarilha vinda de dimensões celestiais além do Monte Targon, Soraka desistiu de sua imortalidade para proteger as raças mortais de seus instintos mais violentos. Ela pretende espalhar as virtudes da compaixão e da misericórdia a todos que encontra, curando até mesmo aqueles que desejam seu mal. E apesar de ter visto todas as dificuldades deste mundo, Soraka ainda acredita que o povo de Runeterra não alcançou todo seu potencial.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/soraka/')
+        ativacaoBotao()
+    } else if (nomeDado == 'SWAIN') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt1a64e469280b8b9f/5db060030b39e86c2f83dc25/RiotX_ChampionList_swain.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Swain, o Grande General Noxiano'
+        champBio.innerHTML = 'Jericho Swain é o líder visionário de Noxus, uma nação expansionista que venera apenas a força. Apesar de ter sido abatido e mutilado nas guerras ionianas, onde perdeu o braço esquerdo, ele tomou o controle do império com uma determinação implacável... e uma nova mão demoníaca. Agora, Swain comanda os esquadrões da linha de frente, marchando contra uma escuridão que se aproxima e que somente ele pode ver – em vislumbres capturados por corvos sombrios dos cadáveres à sua volta. Em um turbilhão de sacrifícios e segredos, o maior segredo de todos é que o verdadeiro inimigo vem de dentro.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/swain/')
+        ativacaoBotao()
+    } else if (nomeDado == 'SYLAS') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf8ea29aa48fc5e35/5db0600cadc8656c7d24e808/RiotX_ChampionList_sylas.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Sylas, o Abjugado'
+        champBio.innerHTML = 'Criado em um dos bairros mais pobres de Demacia, Sylas de Dregbourne se tornou o símbolo do lado mais sombrio da Grande Cidade. Quando criança, sua habilidade de identificar magia chamou a atenção de importantes caçadores de magos, que depois o aprisionaram por ter se virado contra eles. Finalmente livre, agora Sylas vive como um rígido revolucionário, usando a magia das pessoas ao seu redor para destruir o reino ao qual servia… e o grupo de magos exilados que o segue só faz crescer.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/sylas/')
+        ativacaoBotao()
+    } else if (nomeDado == 'SYNDRA') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd9308eedab3a6fa5/5db0600c3a326d6df6c0e7bf/RiotX_ChampionList_syndra.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Syndra, a Soberana Sombria'
+        champBio.innerHTML = 'Syndra é uma temida maga ioniana com um poder incrível ao seu dispor. Quando criança, ela causava pavor nos anciões da aldeia com sua magia imprudente e indomada. Mandada embora para aprender a controlar seus poderes, ela terminou descobrindo que seu suposto mentor estava reprimindo suas habilidades. Transformando seus sentimentos de traição e mágoa em obscuras esferas de energia, Syndra jurou destruir todos que tentarem controlá-la.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/syndra/')
+        ativacaoBotao()
+    } else if (nomeDado == 'TAHM KENCH' || nomeDado == 'TK') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt87be9cf38f3bc986/5db0600c56458c6b3fc17533/RiotX_ChampionList_tahmkench.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Tahm Kench, o Rei do Rio'
+        champBio.innerHTML = 'Conhecido por muitos nomes ao longo da história, Tahm Kench viaja pelas águas de Runeterra alimentando seu insaciável apetite com o sofrimento alheio. Apesar de parecer particularmente encantador e orgulhoso, ele vaga pelo reino físico como um andarilho em busca de presas desavisadas. Sua língua pode atordoar até o guerreiro mais blindado a uma grande distância, e cair em sua barriga retumbante é como cair em um abismo do qual não há esperança de sair.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/tahm-kench/')
+        ativacaoBotao()
+    } else if (nomeDado == 'TALIYAH') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt35c3537198ee86b9/5db05fc52140ec675d68f49b/RiotX_ChampionList_ialiyah.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Taliyah, a Tecelã de Pedras'
+        champBio.innerHTML = 'Taliyah é uma maga nômade de Shurima, dividida entre sua empolgação juvenil e suas grandes responsabilidades. Ela cruzou quase toda Valoran em uma jornada para conhecer a verdadeira natureza de seus próprios poderes, apesar de ter retornado recentemente para proteger sua tribo. Há aqueles que já interpretaram sua compaixão como fraqueza e pagaram o preço por isso, pois, debaixo do comportamento juvenil de Taliyah, existe uma determinação forte o suficiente para mover montanhas e um espírito feroz o suficiente para fazer a terra tremer.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/taliyah/')
+        ativacaoBotao()
+    } else if (nomeDado == 'TALON') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt20a737f99ebcd027/5db0600c89fb926b491ed829/RiotX_ChampionList_talon.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Talon, a Sombra da Lâmina'
+        champBio.innerHTML = 'Talon é a adaga na escuridão, um assassino impiedoso capaz de atacar sem aviso e escapar antes que qualquer alarme soe. Ele construiu uma reputação perigosa nas ruas brutais de Noxus, onde foi forçado a lutar, matar e roubar para sobreviver. Adotado pela notória família Du Couteau, ele agora usa suas habilidades mortais seguindo os comandos do império, assassinando líderes inimigos, capitães e heróis… além de qualquer noxiano tolo o suficiente para ganhar o desprezo de seus mestres.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/talon/')
+        ativacaoBotao()
+    } else if (nomeDado == 'TARIC') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt6b2d37773c3621e1/5db0600d347d1c6baa57be55/RiotX_ChampionList_taric.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Taric, o Escudo de Valoran'
+        champBio.innerHTML = 'Taric é o Aspecto do Protetor, portando um incrível poder como o guardião da vida, do amor e da beleza de Runeterra. Punido por faltar ao cumprimento de seu dever e exilado de Demacia, sua terra natal, Taric subiu o Monte Targon em busca de redenção, mas acabou por descobrir um chamado maior dentre as estrelas. Imbuído do poder ancestral de Targon, o Escudo de Valoran agora mantém vigilância contra a pérfida corrupção do Vazio.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/taric/')
+        ativacaoBotao()
+    } else if (nomeDado == 'TEEMO') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt30ddbbdc0549078a/5db0600da6470d6ab91ce5b8/RiotX_ChampionList_teemo.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Teemo, o Explorador Veloz'
+        champBio.innerHTML = 'Indiferente até aos obstáculos mais perigosos e ameaçadores, Teemo vasculha o mundo com infinito entusiasmo e animação. Um yordle com uma inabalável moral que se orgulha de seguir o Código dos Escoteiros de Bandópolis, às vezes com tanta dedicação que não se toca das possíveis consequências de suas ações. Embora alguns duvidem da existência dos escoteiros, uma coisa é certa: nunca se deve duvidar das convicções de Teemo.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/teemo/')
+        ativacaoBotao()
+    } else if (nomeDado == 'THRESH') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt46555de3bfa94d44/5db0600b2140ec675d68f4b5/RiotX_ChampionList_thresh.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Thresh, o Guardião das Correntes'
+        champBio.innerHTML = 'Sádico e astuto, Thresh é um espírito ambicioso e incansável das Ilhas das Sombras. Ele já foi guardião de incontáveis segredos arcanos, mas acabou sucumbindo a poderes maiores do que a vida e a morte. Agora, Thresh vive atormentando e corrompendo vítimas de forma lenta e dolorosamente criativa. Seus alvos sofrem muito além de seus corpos mortais, pois Thresh aflige as próprias almas, aprisionando-as em sua lanterna maldita para torturá-las por toda a eternidade.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/thresh/')
+        ativacaoBotao()
+    } else if (nomeDado == 'TRISTANA') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltfbbc3205edf5207a/5db0600bdc674266df3d5d50/RiotX_ChampionList_tristana.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Tristana, a Artilheora Yordle'
+        champBio.innerHTML = 'Apesar de muitos outros yordles focarem sua energia em descobertas, invenções ou simplesmente travessuras, Tristana sempre se inspirou nas aventuras de grandes guerreiros. Ela ouviu muito sobre Runeterra, suas facções e suas guerras, e acreditava que sua raça também poderia se tornar digna de lendas. Pisando no mundo pela primeira vez, ela pegou seu canhão de confiança, Boomer, e agora salta para a batalha com coragem e otimismo inabaláveis.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/tristana/')
+        ativacaoBotao()
+    } else if (nomeDado == 'TRUNDLE') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt05eb0518bbe963c0/5db0600ba6470d6ab91ce5b2/RiotX_ChampionList_trundle.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Trundle, o Rei dos Trolls'
+        champBio.innerHTML = 'Trundle é um troll gigantesco e traiçoeiro com uma tendência particularmente perversa, e não há nada que ele não possa submeter a cacetadas, nem mesmo a própria Freljord. Violentamente territorial, ele persegue qualquer um tolo o suficiente de entrar em seu domínio. Então, com seu enorme porrete de Gelo Verdadeiro, ele gela seus inimigos até os ossos e os empala com pilares dentados congelados, rindo enquanto eles sangram na tundra.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/trundle/')
+        ativacaoBotao()
+    } else if (nomeDado == 'TRYNDAMERE' || nomeDado == 'TRYNDA') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt3b217144ed3a7faa/5db08d643a326d6df6c0e907/RiotX_ChampionList_tryndamere.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Tryndamere, o Rei Bárbaro'
+        champBio.innerHTML = 'Carregado por fúria e raiva desenfreadas, Tryndamere galgou seu caminho através de Freljord, desafiando abertamente os maiores guerreiros do norte em preparo para os dias sombrios que virão. O bárbaro furioso já procurou por vingança pela aniquilação de seu clã, mas recentemente ele encontrou uma companhia em Ashe, a mãe de guerra de Avarosa, além de um lar entre seu povo. Sua força quase desumana e resistência são lendárias, e elas permitiram que ele e seus aliados conquistassem muitas vitórias contra as maiores adversidades.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/tryndamere/')
+        ativacaoBotao()
+    } else if (nomeDado == 'TWISTED FATE' || nomeDado == 'TF') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltaebcdb8b21d440a7/5db0600ce9effa6ba5295fb3/RiotX_ChampionList_twistedfate.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Twisted Fate, o Mestre das Cartas'
+        champBio.innerHTML = 'Twisted Fate é um infame trapaceiro que apostou e encantou tudo em seu caminho por boa parte do mundo, conquistando a inimizade e admiração tanto de ricos quanto tolos. Ele raramente leva coisas a sério, saudando cada dia com um sorriso zombeteiro e elegância negligente. Twisted Fate sempre tem um ás na manga, não importa como.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/twisted-fate/')
+        ativacaoBotao()
+    } else if (nomeDado == 'TWITCH') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt674dca7d5611ebb0/5db060159481396d6bdd01be/RiotX_ChampionList_twitch.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Twitch, o Semeador da Peste'
+        champBio.innerHTML = 'Um rato zaunita empesteado de nascença e um apreciador da imundície por paixão, Twitch não tem medo de sujar as patas. Mirando com uma balestra embebida em químicos no centro do coração dourado de Piltover, ele jurou mostrar àqueles na cidade de cima quão imundos eles realmente são. Sempre à espreita, quando ele não está se esgueirando no Sumidouro, ele está cavando fundo no lixo dos outros por tesouros descartados… e talvez um sanduíche bolorento.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/twitch/')
+        ativacaoBotao()
+    } else if (nomeDado == 'UDYR' || nomeDado == 'UGA') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt8350eda62a9ed56c/5db060150b39e86c2f83dc2b/RiotX_ChampionList_udyr.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Udyr, o Andarilho Espiritual'
+        champBio.innerHTML = 'Udyr é mais do que um homem; ele é um recipiente para o poder indomado de quatro espíritos animais primitivos. Ao incorporar a natureza bestial dos espíritos, Udyr pode fazer uso de suas forças únicas: o tigre lhe concede velocidade e ferocidade; a tartaruga, resiliência; o urso, força; e a fênix, sua chama imortal. A junção desses poderes permite que Udyr se volte contra todos aqueles que tentam ferir a ordem natural.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/udyr/')
+        ativacaoBotao()
+    } else if (nomeDado == 'URGOT') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt162b78ba3ece1d4f/5db060157d28b76cfe43981b/RiotX_ChampionList_urgot.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Udyr, o Encouraçado'
+        champBio.innerHTML = 'Na época em que era um poderoso carrasco noxiano, Urgot foi traído pelo império para o qual havia tirado tantas vidas. Aprisionado em correntes de ferro, ele foi forçado a aprender o verdadeiro significado da força na Draga — uma mina carcerária nas profundezas de Zaun. Após emergir de um desastre que espalhou o caos por toda a cidade, ele se tornou uma figura imponente no submundo criminoso da cidade. Hoje ele usa as mesmas correntes que o aprisionaram para erguer suas vítimas e seu objetivo é expurgar todos os seres indignos do seu novo lar, tornando-o um crisol de dor.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/urgot/')
+        ativacaoBotao()
+    } else if (nomeDado == 'VARUS') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt596158d85a8360d1/5db060132dc72966da74671a/RiotX_ChampionList_varus.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Varus, '
+        champBio.innerHTML = 'Um dos antigos darkin, Varus era um assassino mortal que amava atormentar seus inimigos, levando-os quase à insanidade antes de disparar a flecha mortal. Ele foi aprisionado no final da Grande Guerra dos Darkin, mas fugiu, séculos depois, na carne recomposta de dois caçadores ionianos que o libertaram involuntariamente, condenando-o a carregar o arco que contém suas essências. Agora Varus caça aqueles que o aprisionaram para decretar sua vingança brutal, mas as almas mortais dentro dele ainda resistem a cada passo do caminho.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/varus/')
+        ativacaoBotao()
+    } else if (nomeDado == 'VAYNE') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt9eaabc908956c8b0/5db060146af83b6d7032c90a/RiotX_ChampionList_vayne.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Vayne, a Caçadora Noturna'
+        champBio.innerHTML = 'Shauna Vayne é uma caçadora de monstros demaciana mortal e implacável que dedicou sua vida a encontrar e destruir o monstro que assassinou sua família. Armada com uma balestra em seu pulso e com um coração cheio de vingança, ela só é realmente feliz quando está matando praticantes ou criações das artes obscuras, atacando das sombras com um turbilhão de dardos de prata.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/vayne/')
+        ativacaoBotao()
+    } else if (nomeDado == 'VEIGAR') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltda2b568b0c3e5847/5db06014e9effa6ba5295fb9/RiotX_ChampionList_veigar.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Veigar, o Pequeno Mestre do Mal'
+        champBio.innerHTML = 'Veigar, um mestre entusiasta da feitiçaria das trevas, aderiu a poderes dos quais poucos mortais se aproximam. Um habitante inconformado de Bandópolis, ele desejava ultrapassar as limitações da magia yordle, se voltando, então, para os textos arcanos que permaneceram escondidos por milhares de anos. Agora uma criatura teimosa com uma fascinação sem fim pelos mistérios do universo, Veigar é constantemente subestimado por outros. E mesmo que ele acredite ser verdadeiramente mau, ele possui um senso de ética interior que leva alguns a se perguntarem sobre suas verdadeiras motivações.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/veigar/')
+        ativacaoBotao()
+    } else if (nomeDado == `VEL'KOZ` || nomeDado == 'VEL KOZ' || nomeDado == 'VELKOZ') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt825d0c333f6e74ae/5db060142140ec675d68f4bb/RiotX_ChampionList_velkoz.jpg?quality=90&width=250')
+        champNome.innerHTML = `Vel'Koz, o Olho do Vazio`
+        champBio.innerHTML = `Não é claro se Vel'Koz foi a primeira criatura do Vazio a aparecer em Runeterra, mas certamente nunca houve outra que se igualasse ao seu nível de compreensão cruel e calculista. Enquanto sua raça devora ou perverte tudo ao seu redor, ele busca, em vez disso, examinar e estudar o domínio físico, assim como os estranhos seres guerreiros que habitam nele, por quaisquer fraquezas que o Vazio possa explorar. Mas Vel'Koz está longe de ser um observador passivo e é capaz de atacar ameaças com plasma mortal ou desfazer o próprio tecido do mundo.`
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/vel-koz/')
+        ativacaoBotao()
+    } else if (nomeDado == 'VEX') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltad313195d6b48daa/614e702764c8007a9bdec6b2/RiotX_ChampionList_vex.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Vex, a Melancolista'
+        champBio.innerHTML = 'Em meio à escuridão das Ilhas das Sombras, uma solitária yordle se move com pesar, abrindo caminho pela névoa espectral, satisfeita em viver nas trevas. Com uma poderosa sombra no seu encalço e uma fonte inesgotável de mazelas nas costas, Vex vive num mundinho de agonia que ela mesma criou, longe da alegria repulsiva do mundo dos "normais". Apesar de não ser a mais ambiciosa das yordles, perto dela a cor e a felicidade não têm vez. Com sua indisposição mágica, ela afasta qualquer possível intrometido.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/vex/')
+        ativacaoBotao()
+    } else if (nomeDado == 'VI') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt3bd79abf330fc807/5db06014dc674266df3d5d56/RiotX_ChampionList_vi.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Vi, a Defensora de Piltover'
+        champBio.innerHTML = 'Antiga criminosa das ruas violentas de Zaun, Vi é uma mulher temível, impulsiva e explosiva que tem muito pouco respeito por autoridades. Após ter crescido completamente só, Vi desenvolveu instintos de sobrevivência extremamente certeiros e um senso de humor extremamente ácido. Agora trabalhando com os Vigias de Piltover para manter a paz, ela porta poderosas manoplas hextec capazes de esmagar paredes e suspeitos com a mesma facilidade.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/vi/')
+        ativacaoBotao()
+    } else if (nomeDado == 'VIEGO') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt17591d0be6f2888f/600f2aee5ad9610f6cb7880c/RiotX_ChampionList_viego.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Viego, o Rei Destruído'
+        champBio.innerHTML = 'Outrora regente de um reino perdido, Viego morreu há mais de um milênio, quando uma tentativa de trazer sua esposa de volta à vida culminou em uma catástrofe mágica conhecida como "a Ruína". Transformado em um poderoso espectro morto-vivo, e sempre sendo torturado pela paixão obsessiva que sente por sua rainha morta há séculos, Viego agora é conhecido como o Rei Destruído. Hoje, ele controla os Tormentos enquanto assola Runeterra em busca de qualquer coisa que possa trazê-la de volta, destruindo tudo que estiver em seu caminho conforme a Névoa Negra emana de seu cruel coração partido.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/viego/')
+        ativacaoBotao()
+    } else if (nomeDado == 'VIKTOR') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt6e54b3de49b7bbf3/5db06015df78486c826dcd1e/RiotX_ChampionList_viktor.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Viktor, o Arauto das Máquinas'
+        champBio.innerHTML = 'Viktor, o arauto de uma nova era de tecnologia, devotou sua vida ao avanço da humanidade. Um idealista que busca elevar o povo de Zaun a um novo nível de compreensão, ele acredita que somente ao aceitar a evolução gloriosa da tecnologia será possível que a humanidade alcance seu verdadeiro potencial. Com um corpo melhorado por aço e ciência, Viktor é zeloso na sua busca por este brilhante futuro.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/viktor/')
+        ativacaoBotao()
+    } else if (nomeDado == 'VLADIMIR') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt39ab5027f6fa1b81/5db0601589fb926b491ed82f/RiotX_ChampionList_vladimir.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Vladirmir, o Sanguinário Escarlate'
+        champBio.innerHTML = 'Um demônio sedento pelo sangue dos mortais, Vladimir tem influenciado os acontecimentos de Noxus desde os primórdios do império. Além de ter estendido sua vida por meios não naturais, sua maestria em hemomancia o permite controlar as mentes e corpos de outros como se fossem os seus. Nos exuberantes salões da aristocracia noxiana, isso possibilitou que construísse um culto fanático de personalidades ao seu redor, tudo isso para que ele possa sangrar seus inimigos nos becos escuros.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/vladimir/')
+        ativacaoBotao()
+    } else if (nomeDado == 'VOLIBEAR') {
+        champImg.setAttribute('src', 'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Volibear_0.jpg')
+        champNome.innerHTML = 'Volibear, a Tempestade Implacável'
+        champBio.innerHTML = 'Para aqueles que ainda o veneram, Volibear é a forma manifestada da tempestade. Destrutivo, selvagem e implacavelmente obstinado, ele já existia antes mesmo que os mortais andassem sobre a tundra de Freljord, protegendo as terras que ele e seus irmãos semideuses criaram. Com um ódio profundo pela civilização e pela fraqueza inerente a ela, Volibear luta para recuperar os velhos costumes de quando a terra era selvagem e o sangue jorrava livremente. Ele enfrenta todos aqueles que ousam entrar em seu caminho com dentes, garras e dominação estrondosa.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/volibear/')
+        ativacaoBotao()
+    } else if (nomeDado == 'WARWICK') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt08a92f3897cfc8f5/5db0601ddc674266df3d5d5c/RiotX_ChampionList_warwick.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Warwick, a ira Desimpedida de Zaun'
+        champBio.innerHTML = 'Warwick é um monstro que caça pelas ruas cinzentas de Zaun. Transformado a partir de experimentos agonizantes, seu corpo agora é fundido a um sistema complexo de câmaras e bombas, um maquinário que enche suas veias com fúria química. Ele persegue os criminosos que aterrorizam as profundezas da cidade, movimentando-se pelas sombras. Warwick é atraído por sangue; para ele, esse aroma é enlouquecedor. Ninguém que derrama sangue é capaz de fugir dele.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/warwick/')
+        ativacaoBotao()
+    } else if (nomeDado == 'WUKONG') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltaf44673e1a16af30/5db05fe87d28b76cfe439807/RiotX_ChampionList_monkeyking.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Wukong, o Macaco Rei'
+        champBio.innerHTML = 'Wukong é um trapaceiro vastaya que usa sua força, agilidade e inteligência para confundir os oponentes e deixar a situação a seu favor. Depois de encontrar uma eterna amizade no guerreiro conhecido como Master Yi, Wukong se tornou o último aprendiz da ancestral arte marcial conhecida como Wu Ju. Armado com um cajado encantado, Wukong tenta evitar que Ionia caia em ruína.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/wukong/')
+        ativacaoBotao()
+    } else if (nomeDado == 'XAYAH') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt0d029ccdb18a4299/5db0601ba6470d6ab91ce5be/RiotX_ChampionList_xayah.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Xayah, a Rebelde'
+        champBio.innerHTML = 'Mortal e precisa, Xayah é uma vastaya revolucionária que trava sua própria batalha para salvar seu povo. Ela usa sua agilidade, malícia e plumas afiadas para retalhar qualquer um que atrapalhe seu caminho. Xayah luta ao lado de seu parceiro e amante, Rakan, para proteger sua tribo em extinção e restaurar a antiga glória de sua raça.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/xayah/')
+        ativacaoBotao()
+    } else if (nomeDado == 'XARATH') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltbda694c8890e94e5/5db0601ce9effa6ba5295fbf/RiotX_ChampionList_xeratth.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Xerath, o Mago Ascendente'
+        champBio.innerHTML = 'Xerath é um mago Ascendente da antiga Shurima, um ser de energia arcana que existe em meio a estilhaços de um sarcófago mágico. Por milênios, ele ficou enclausurado debaixo das areias do deserto, mas o ressurgimento de Shurima o libertou de sua antiga prisão. Enlouquecido pelo próprio poder, ele agora busca tomar o que crê ser seu por direito e substituir as civilizações existentes do mundo com uma criada em sua própria imagem.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/xerath/')
+        ativacaoBotao()
+    } else if (nomeDado == 'XIN ZHAO') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltca4486a1630ef517/5db0601ce9d7526ab429e54a/RiotX_ChampionList_xinzhao.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Xin Zhao, o Senescal de Demacia'
+        champBio.innerHTML = 'Xin Zhao é um guerreiro determinado, leal à dinastia Lumescudo. No passado, ele foi condenado a lutar como gladiador em Noxus, e sobreviveu à incontáveis lutas, mas depois de ser libertado por forças demacianas, ele prometeu sua vida e lealdade aos seus corajosos salvadores. Armado com sua lança de três pontas favorita, Xin Zhao agora luta pelo reino que adotou, desafiando com audácia qualquer inimigo, não importando as chances de vitória.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/xin-zhao/')
+        ativacaoBotao()
+    } else if (nomeDado == 'YASUO' || nomeDado == 'LIXO') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt3a319fc884dc6880/5db0601c242f426df132f985/RiotX_ChampionList_yasuo.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Yasuo, o Imperdoável'
+        champBio.innerHTML = 'Yasuo, um ioniano extremamente determinado, é também um ágil espadachim que usa o próprio ar como arma para enfrentar seus inimigos. Quando jovem, ele teve seu orgulho ferido ao ser acusado injustamente do assassinato de seu mestre — sem conseguir provar sua inocência, ele foi forçado a matar o próprio irmão para se defender. Até hoje, mesmo depois do verdadeiro assassino do seu mestre ter sido revelado, Yasuo ainda não consegue se perdoar e vaga por sua terra natal com apenas o vento para guiar sua espada.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/yasuo/')
+        ativacaoBotao()
+    } else if (nomeDado == 'YONE') {
+        champImg.setAttribute('src', 'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_0.jpg')
+        champNome.innerHTML = 'Yone, o Inesquecido'
+        champBio.innerHTML = 'Em vida, ele foi Yone; meio-irmão de Yasuo e um respeitado aluno da escola de espadachins de seu vilarejo. Mas, ao morrer pelas mãos do irmão, ele se viu perseguido por uma entidade maligna do reino espiritual e foi forçado a exterminá-la com sua própria espada. Agora, condenado a usar uma máscara demoníaca com o rosto da entidade, Yone busca incansavelmente essas criaturas para tentar entender o que ele mesmo se tornou.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/yone/')
+        ativacaoBotao()
+    } else if (nomeDado == 'YORICK') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt570d89dd9a76ba08/5db0601c823d426762825ff9/RiotX_ChampionList_yorick.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Yorick, o Pastor de Almas'
+        champBio.innerHTML = 'Último sobrevivente de uma ordem religiosa há muito esquecida, Yorick é ao mesmo tempo abençoado e amaldiçoado pelo poder que exerce sobre os mortos. Preso nas Ilhas das Sombras, suas únicas companhias são os defuntos e espíritos atormentados que ele atrai para si. As ações monstruosas de Yorick mascaram seu nobre propósito: libertar sua terra da maldição da Ruína.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/yorick/')
+        ativacaoBotao()
+    } else if (nomeDado == 'YUUMI') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blta312e7cca0e594d1/5db0601d2140ec675d68f4c1/RiotX_ChampionList_yuumi.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Yuumi, a Gata Mágica'
+        champBio.innerHTML = 'Uma gata mágica de Bandópolis, Yuumi já foi a mascote de uma feiticeira yordle chamada Norra. Mas quando sua mestra desapareceu misteriosamente, Yuumi se tornou a Guardiã do Livro dos Portais de Norra, viajando à procura dela através dos portais nas páginas. Sentindo falta do carinho de sua mestra, Yuumi busca diversas companhias em sua jornada, protegendo a todos com escudos luminosos e determinação ferrenha. Enquanto Livro se esforça para mantê-la focada na tarefa, Yuumi costuma se distrair com regalias mundanas, como cochilos e peixe para o jantar. Porém, no fim das contas, ela sempre retoma a missão: encontrar sua querida amiga.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/yuumi/')
+        ativacaoBotao()
+    } else if (nomeDado == 'ZAC') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt9412083c2b98b9c8/5db0601d6af83b6d7032c910/RiotX_ChampionList_zac.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Zac, a Arma Secreta'
+        champBio.innerHTML = 'Zac é produto de um derramamento tóxico que percorreu um tubo quimtec e se armazenou em uma caverna isolada no Sumidouro de Zaun. Apesar de suas origens humildes, Zac deixou de ser uma lama qualquer e se tornou um ser pensante que mora nos encanamentos da cidade e emerge ocasionalmente para ajudar aqueles que não podem se ajudar ou para reconstruir a infraestrutura danificada de Zaun.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/zac/')
+        ativacaoBotao()
+    } else if (nomeDado == 'ZED') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt402d6da485218720/5db0601de9effa6ba5295fc5/RiotX_ChampionList_zed.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Zed, o Mestre das Sombras'
+        champBio.innerHTML = 'Absolutamente impiedoso e implacável, Zed é o líder da Ordem das Sombras; uma organização criada com a intenção de militarizar as tradições marciais e mágicas de Ionia para expulsar os invasores noxianos. Durante a guerra, o desespero o levou a libertar a forma secreta das sombras, uma magia espiritual malévola tão perigosa e manipuladora quanto poderosa. Zed dominou todas essas técnicas proibidas para destruir qualquer coisa que considerasse uma ameaça a sua nação, ou a sua nova ordem.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/zed/')
+        ativacaoBotao()
+    } else if (nomeDado == 'ZIGGS') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt0f8c12d54d8ecd28/5db0602289fb926b491ed835/RiotX_ChampionList_ziggs.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Ziggs, o Especialista em Hexplosivos'
+        champBio.innerHTML = 'O yordle Ziggs, amante de grandes bombas e pavios curtos, é uma força explosiva da natureza. Já entediado com sua vida previsível como assistente de um inventor de Piltover, ele fez amizade com uma bombardeira louca de cabelo azul chamada Jinx. Depois de uma noite louca na cidade com sua nova amiga, Ziggs aceitou seu conselho e se mudou para Zaun, onde ele agora explora suas fascinações com mais liberdade, aterrorizando tanto os barões químicos quanto os cidadãos comuns na sua aventura sem fim por explodir coisas.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/ziggs/')
+        ativacaoBotao()
+    } else if (nomeDado == 'ZILEAN') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blta32de59397f53325/5db060222dc72966da746720/RiotX_ChampionList_zilean.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Zilean, o Guardião do Tempo'
+        champBio.innerHTML = 'Outrora um poderoso mago icathiano, Zilean se obcecou com a passagem do tempo depois de testemunhar a destruição de sua terra natal pelo Vazio. Sem conseguir gastar um minuto que fosse para lamentar a perda catastrófica, ele invocou uma antiga magia temporal para adivinhar todos os finais possíveis. Tendo se tornado essencialmente imortal com isso, Zilean agora caminha entre passado, presente e futuro, curvando e distorcendo o fluxo do tempo a sua volta, sempre procurando por aquele momento fugaz que vai fazer o relógio voltar e desfazer a destruição de Icathia.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/zilean/')
+        ativacaoBotao()
+    } else if (nomeDado == 'ZOE') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd18587f31803441d/5db060226e8b0c6d038c5cc6/RiotX_ChampionList_zoe.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Zoe, o Aspecto do Crepúsculo'
+        champBio.innerHTML = 'Como a personificação da travessura, imaginação e mudança, Zoe atua como a mensageira cósmica de Targon, anunciando a chegada de grandes eventos que redefinem mundos. Sua mera presença altera a matemática arcana que governa as realidades, às vezes causando cataclismas não intencionais. Talvez isso explique a forma despretensiosa e jovial com a qual Zoe encara seu dever e que permite que ela tenha tempo de sobra para pregar peças nos mortais, fazer brincadeirinhas ou dar um jeitinho de se divertir de alguma forma. Um encontro com Zoe pode ser agradável e revigorante, mas é sempre mais do que parece e geralmente extremamente perigoso.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/zoe/')
+        ativacaoBotao()
+    } else if (nomeDado == 'ZYRA') {
+        champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt9bc3497cdd04f6d5/5db060229481396d6bdd01c4/RiotX_ChampionList_zyra.jpg?quality=90&width=250')
+        champNome.innerHTML = 'Zyra, a Ascensão dos Espinhos'
+        champBio.innerHTML = 'Nascida em uma antiga catástrofe mágica, Zyra é a fúria da natureza em forma física e uma sedutora criatura híbrida entre planta e humana, que faz surgir a vida a cada passo que dá. Ela vê os muitos mortais de Valoran como nada além de presas para suas crias semeadas e não sente nada ao destroçá-los em um turbilhão de farpas mortais. Apesar de seu real propósito ainda não ter sido descoberto, Zyra vaga pelo mundo, satisfazendo seus desejos primais de colonizar e estrangular toda e qualquer outra vida estranha que encontra.'
+        linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/zyra/')
+        ativacaoBotao()
+    } else if (nomeDado == '') {
+        champInfo.style.display = 'none'
+        logo.style.display = 'none'
+        champNaoEncontrado.style.display = 'flex'
+    } else {
+        champInfo.style.display = 'none'
+        logo.style.display = 'none'
+        champNaoEncontrado.style.display = 'flex'
+    }
 }
 
 
