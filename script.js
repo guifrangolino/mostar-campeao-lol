@@ -406,9 +406,9 @@ function mostrarChamp() {
         champBio.innerHTML = 'Impregnada pelas chamas do sol, Leona é uma guerreira sagrada de Solari que defende o Monte Targon com sua Lâmina Zênite e a Proteção da Aurora. Sua pele brilha com fogo solar enquanto seus olhos queimam com o poder do Aspecto celestial que nela existe. Protegida em uma armadura dourada e carregando o terrível fardo de um conhecimento ancestral, Leona traz luz a alguns e morte a outros.'
         linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/leona/')
         ativacaoBotao()
-    } else if (nomeDado == 'LILIAN') {
+    } else if (nomeDado == 'LILLIA') {
         champImg.setAttribute('src', 'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_0.jpg')
-        champNome.innerHTML = 'Lilian, o Florir Receoso'
+        champNome.innerHTML = 'Lillia, o Florir Receoso'
         champBio.innerHTML = 'Extremamente tímida, Lillia, a faunesa feérica, percorre saltitante as florestas de Ionia. Sempre escondida a pouca distância dos humanos — cuja misteriosa natureza lhe causa fascínio e, ao mesmo tempo, receio — Lillia espera descobrir por que os sonhos deles não chegam mais à Árvore dos Sonhos. Agora, ela percorre Ionia com um cajado mágico nas mãos em busca dos sonhos não realizados das pessoas. Somente assim, a própria Lillia poderá florescer e ajudar os humanos a resolverem seus medos e encontrarem seu brilho interior. Iiip!'
         linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/lillia/')
         ativacaoBotao()
