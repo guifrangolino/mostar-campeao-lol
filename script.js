@@ -852,7 +852,7 @@ function mostrarChamp() {
         ativacaoBotao()
     } else if (nomeDado == 'VLADIMIR') {
         champImg.setAttribute('src', 'https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt39ab5027f6fa1b81/5db0601589fb926b491ed82f/RiotX_ChampionList_vladimir.jpg?quality=90&width=250')
-        champNome.innerHTML = 'Vladirmir, o Sanguinário Escarlate'
+        champNome.innerHTML = 'Vladimir, o Sanguinário Escarlate'
         champBio.innerHTML = 'Um demônio sedento pelo sangue dos mortais, Vladimir tem influenciado os acontecimentos de Noxus desde os primórdios do império. Além de ter estendido sua vida por meios não naturais, sua maestria em hemomancia o permite controlar as mentes e corpos de outros como se fossem os seus. Nos exuberantes salões da aristocracia noxiana, isso possibilitou que construísse um culto fanático de personalidades ao seu redor, tudo isso para que ele possa sangrar seus inimigos nos becos escuros.'
         linkPag.setAttribute('href', 'https://www.leagueoflegends.com/pt-br/champions/vladimir/')
         ativacaoBotao()

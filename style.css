@@ -185,7 +185,6 @@ h1 {
 
     #champImg {
         width: max-content;
-        object-fit: initial;
     }
 
     #info p {
